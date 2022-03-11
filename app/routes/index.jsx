@@ -27,7 +27,7 @@ export default function Index() {
 
       <Stars />
       <Suspense fallback={null}>
-        <Model scale={0.25} />
+        <Model scale={0.333} position={[0, 1, 0]} />
       </Suspense>
       <OrbitControls />
       <Environment>
